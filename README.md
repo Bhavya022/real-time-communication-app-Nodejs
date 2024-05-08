@@ -22,32 +22,26 @@ This is a real-time communication app built using React.js, Node.js, and WebSock
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/real-time-communication-app.git
+git clone https://github.com/Bhavya022/real-time-communication-app.git
 Install dependencies for the backend and frontend:
 bash
-Copy code
 cd real-time-communication-app
 cd backend && npm install
 cd ../frontend && npm install
 Configure environment variables:
 Create a .env file in the backend directory and define the following variables:
 env
-Copy code
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 Start the backend server:
 bash
-Copy code
+
 cd ../backend && npm start
 Start the frontend development server:
 bash
-Copy code
 cd ../frontend && npm run dev
 Access the application at http://localhost:3000.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-vbnet
-Copy code
-
-Feel free to modify the content according to your p
+## Backend Deployment Link :- 
+https://real-time-backend-rfku.onrender.com/
